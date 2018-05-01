@@ -14,14 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hyungjin's Blog
-email: Hyungjin.lee1004@gmail.com
+email: hyungjin.lee1004@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hyungjiny.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+author:
+	name: Hyungjin Lee
+	picture: 
+
+# twitter_username: jekyllrb
 github_username: HyungJiny
 
 # Build settings
@@ -29,8 +33,17 @@ markdown: kramdown
 #theme: minima
 #theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
-plugins:
+plugins: # previsously gems
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+  
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,3 +56,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
