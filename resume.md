@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 이력서(Resume)
+title: Resume
 permalink: /resume/
 ---
 
