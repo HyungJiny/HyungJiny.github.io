@@ -7,6 +7,7 @@ permalink: /resume/
 ## 소개(Introduce)
 <!--![프로필이미지](/images/profile_character.jpeg)-->
 <img width="400" src="/images/profile_character.jpeg" title="프로필이미지">
+
 - **이름**: 이형진(Hyungjin Lee)
 - **E-mail**: hyungjin.lee1004@gmail.com
 - **Github**: [github.com/hyungjiny](https://github.com/HyungJiny)
