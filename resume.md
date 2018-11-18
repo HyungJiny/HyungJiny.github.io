@@ -11,9 +11,10 @@ permalink: /resume/
 - **이름**: 이형진(Hyungjin Lee)
 - **E-mail**: hyungjin.lee1004@gmail.com
 - **Github**: [github.com/hyungjiny](https://github.com/HyungJiny)
-- **LinkeIn**: [linkedin.com/in/hyungjin-lee](www.linkedin.com/in/hyungjin-lee-17a647113)
+- **LinkeIn**: [linkedin.com/in/hyungjin-lee](https://www.linkedin.com/in/hyungjin-lee-17a647113)
+- **Instagram**: [@hyung_jiny](https://www.instagram.com/hyung_jiny)
 - **관심 분야**: 빅데이터, 딥러닝, 네트워크, 웹, IoT, 인포그래픽
-- **취미**: 사진, 여행, 영화, 서점 탐방, 타로, 키보드 커스텀, 개발자 블로그 탐방
+- **취미**: 사진, 여행, 영화, 서점 탐방, 타로 리딩, 키보드 커스텀, 개발자 블로그 탐방, 친구랑 카페에서 모각코(모여서 각자 코딩)
 - **군필 여부**: 만기제대(육군), 정부세종청사경비대 2중대 본부소대, 2013.05.30. ~. 2015.02.28.
 
 > 느린만큼 섬세한 개발자 이형진입니다.
