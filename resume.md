@@ -64,24 +64,21 @@ permalink: /resume/
 
 ***
 
-## 경력 정보(Experience)
-- **ETRI 연구연수생**
-    - 기간: 2017.06. ~ 2017.08.
-    - 소속: SW콘텐츠연구소 SW기반기술연구본부 고신뢰CPS연구그룹
-    - 내용: 스마트팩토리 설비 관리 시스템 개선
+## 출판(Publication)
 
-***
+### International Conference
+1. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **[Insights from Analysis of Video Streaming Data to Improve Resource Management](https://arxiv.org/abs/1806.08516)**, CloudNet2018, 2018.09.
 
-## 학력(Education)
-- 2018.03. ~ 현재. - **충남대학교**, 석사, 컴퓨터 정보 통신 및 보안, [데이터네트워크 연구실](https://dnlab.cs-cnu.org/)
-  - 수업 TA 활동: 논리회로 설계 및 실험, 컴퓨터프로그래밍2
-- 2012.03. ~ 2018.02. - **충남대학교**, 학사, 컴퓨터공학과
-  - SW 글로벌 인재트랙 1기
-  - 수업 튜터(Tutor) 활동: 자료구조, 알고리즘
-  - 동아리(Club)
-    - Motion: 모바일 애플리케이션 동아리
-    - The Angles: 사진 예술 동아리(58대 회장, 중앙동아리연합회 예술 부장)
-- 2009.03. ~ 2012.02. - **논산대건고등학교**
+### Domestic Journal
+1. 문현수, 이형진, 남현규, 이영석, **[“모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구”](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
+
+### Domestic Conference
+1. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **[“라즈베리파이를 이용한 학내 유동인구 측정”](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017. 12.
+2. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **[“오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현”](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
+3. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016. 12
+
+### Software
+1. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13
 
 ***
 
@@ -103,18 +100,21 @@ permalink: /resume/
 
 ***
 
-## 출판(Publication)
+## 경력 정보(Experience)
+- **ETRI 연구연수생**
+    - 기간: 2017.06. ~ 2017.08.
+    - 소속: SW콘텐츠연구소 SW기반기술연구본부 고신뢰CPS연구그룹
+    - 내용: 스마트팩토리 설비 관리 시스템 개선
 
-### International Conference
-1. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **[Insights from Analysis of Video Streaming Data to Improve Resource Management](https://arxiv.org/abs/1806.08516)**, CloudNet2018, 2018.09.
+***
 
-### Domestic Journal
-1. 문현수, 이형진, 남현규, 이영석, **[“모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구”](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
-
-### Domestic Conference
-1. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **[“라즈베리파이를 이용한 학내 유동인구 측정”](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017. 12.
-2. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **[“오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현”](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
-3. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016. 12
-
-### Software
-1. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13
+## 학력(Education)
+- 2018.03. ~ 현재. - **충남대학교**, 석사, 컴퓨터 정보 통신 및 보안, [데이터네트워크 연구실](https://dnlab.cs-cnu.org/)
+  - 수업 TA 활동: 논리회로 설계 및 실험, 컴퓨터프로그래밍2
+- 2012.03. ~ 2018.02. - **충남대학교**, 학사, 컴퓨터공학과
+  - SW 글로벌 인재트랙 1기
+  - 수업 튜터(Tutor) 활동: 자료구조, 알고리즘
+  - 동아리(Club)
+    - Motion: 모바일 애플리케이션 동아리
+    - The Angles: 사진 예술 동아리(58대 회장, 중앙동아리연합회 예술 부장)
+- 2009.03. ~ 2012.02. - **논산대건고등학교**
