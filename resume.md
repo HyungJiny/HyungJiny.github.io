@@ -68,9 +68,7 @@ permalink: /resume/
 
 ### International Conference
 1. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **["Insights from Analysis of Video Streaming Data to Improve Resource Management"](https://arxiv.org/abs/1806.08516)**, CloudNet, 2018.09.
-
-### International Conference
-1. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings"](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
+2. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings"](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
 
 ### Domestic Journal
 1. 문현수, 이형진, 남현규, 이영석, **[“모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구”](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
