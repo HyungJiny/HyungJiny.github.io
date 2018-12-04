@@ -79,7 +79,8 @@ permalink: /about/
 3. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016. 12
 
 ### Software
-1. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13
+1. 이형진, 이영석,  **[“하이라이트 제목 생성을 위한 시청자 자료 수집기”](https://drive.google.com/file/d/1qFiJWalSJCWv2159p8b5PqQSQPcUCed6/view)**, 등록번호 C-2018-035357, 2018.11.29
+2. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13
 
 ***
 
