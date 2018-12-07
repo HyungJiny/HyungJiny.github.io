@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 ## 소개(Introduce)
-<!--![프로필이미지](/images/profile_character.jpeg)-->
-<img width="400" src="/images/profile_character.jpeg" title="프로필이미지">
+<!--![프로필이미지](/images/profile.JPG)-->
+<img width="400" src="/images/profile.JPG" title="프로필이미지">
 
 - **이름**: 이형진(Hyungjin Lee)
 - **E-mail**: hyungjin.lee1004@gmail.com
@@ -15,7 +15,7 @@ permalink: /about/
 - **Instagram**: [@hyung_jiny](https://www.instagram.com/hyung_jiny)
 - **관심 분야**: 빅데이터, 딥러닝, 네트워크, 웹, IoT, 인포그래픽
 - **취미**: 사진, 여행, 영화, 서점 탐방, 타로 리딩, 키보드 커스텀, 개발자 블로그 탐방, 친구랑 카페에서 모각코(모여서 각자 코딩), 크라우드펀딩
-- **군필 여부**: 만기제대(육군), 정부세종청사경비대 2중대 본부소대, 2013.05.30. ~ 2015.02.28.
+- **군필 여부**: 만기제대(1111)
 
 > 느린만큼 섬세한 개발자 이형진입니다.
 > 사람들 행동 변화를 관찰하고, 분석하는 것을 좋아해서 그로스 해커(Growth Hacker)를 꿈꾸며 데이터 엔지니어링을 주로 공부하고 있습니다.
