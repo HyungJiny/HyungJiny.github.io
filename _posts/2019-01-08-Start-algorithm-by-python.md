@@ -97,7 +97,7 @@ Python뿐 아니라 다른 언어들도 마찬가지로 입출력이 빠른 방�
 그래프를 보면 왜 알고리즘을 풀 때, 사람들이 Python을 사용하지 않는지 이해가 간다.
 
 ![algorithm_input_performance](https://user-images.githubusercontent.com/11986878/50819021-27677c80-136c-11e9-8e70-4a2369ed7c4f.png)
-이미지 출처 : https://www.acmicpc.net/blog/view/56
+이미지 출처 : <https://www.acmicpc.net/blog/view/56>
 
 그나저나 왜 둘은 성능 차이가 발생할까?
 조사해보니 `input()` 은 Prompt를 이용하기 위한 과정이어서 디스플레이 하는 과정에서 일부 오버해드가 발생하는것 같다.
