@@ -74,13 +74,14 @@ permalink: /about/
 1. 문현수, 이형진, 남현규, 이영석, **[“모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구”](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
 
 ### Domestic Conference
-1. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **[“라즈베리파이를 이용한 학내 유동인구 측정”](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017. 12.
-2. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **[“오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현”](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
-3. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016. 12
+1. 이형진, 남현규, 문현수, 이영석, **["인터넷 커뮤니티 특색에 따른 하이라이트 생성 모델"](https://drive.google.com/file/d/1KIJbMy7urieNBE-n7WHM7cWIwSsoVzMJ/view?usp=sharing)**, 한국정보과학회 학술대회, 2018.12.
+2. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **[“라즈베리파이를 이용한 학내 유동인구 측정”](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017.12.
+3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **[“오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현”](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
+4. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016.12.
 
 ### Software
-1. 이형진, 이영석,  **[“하이라이트 제목 생성을 위한 시청자 자료 수집기”](https://drive.google.com/file/d/1qFiJWalSJCWv2159p8b5PqQSQPcUCed6/view)**, 등록번호 C-2018-035357, 2018.11.29
-2. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13
+1. 이형진, 이영석,  **[“하이라이트 제목 생성을 위한 시청자 자료 수집기”](https://drive.google.com/file/d/1qFiJWalSJCWv2159p8b5PqQSQPcUCed6/view)**, 등록번호 C-2018-035357, 2018.11.29.
+2. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13.
 
 ***
 
