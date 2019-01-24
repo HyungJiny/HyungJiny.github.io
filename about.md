@@ -37,20 +37,7 @@ permalink: /about/
 - Docker
 
 ### Web
-- HTML
-- CSS
-- JavaScript
-- PHP
-- Tomcat
-- Node.js
-
-### IDE
-- Atom
-- Vim
-- Jupyter
-- IntelliJ
-- PyCharm
-- Eclipse
+- Django
 
 ### OS
 - Ubuntu
