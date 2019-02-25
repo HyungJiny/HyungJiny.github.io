@@ -80,7 +80,7 @@ permalink: /about/
 
 ### 교육 수료(Completion)
 - **[문제해결형 인공지능 실무교육](https://drive.google.com/file/d/1Ffxe3RBg0j-gck20fKWE06-oQ7h-mUuP/view?usp=sharing)**, KEPCO, 2019.01.14. ~ 2019.01.18.
-- **초연결 지식융합 인공지능(AI) 서비스 개발을 위한 KSB 인공지능 프레임워크 이해 및 활용**, ETRI, 2018.08.16. ~ 2018.08.17.
+- **[초연결 지식융합 인공지능(AI) 서비스 개발을 위한 KSB 인공지능 프레임워크 이해 및 활용](https://drive.google.com/file/d/1fItOBJj5OJPRRoEV-Mq6bFTpuS7_eBvF/view?usp=sharing)**, ETRI, 2018.08.16. ~ 2018.08.17.
 - **Chungnam National University / Purdue University National Center for Excellence in Software Program 2017**, Center for Robotic Innovation, Commercialization and Education(RICE), Purdue University, 2017.01. ~ 2017.02.
 - **An Introduction to Interactive Programming in Python (Part 2)**, Coursera Course Certificates, *License 988Z8R7C5GB7*, 2016.09.
 - **An Introduction to Interactive Programming in Python (Part 1)**, Coursera Course Certificates, *License SHBGYMXQZ4*, 2016.02.
