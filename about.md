@@ -91,7 +91,7 @@ permalink: /about/
 - **Programming for Everybody (Python)**, Coursera Course Certificates, *License SJGYNJ9WCH*, 2015.08.
 
 ### 수상 이력(Awards)
-- 문현수, 김수현, 민지원, 박종현, 이형진, **KSB 인공지능 프레임워 활용 공모전**, 우수상(일반개인 부문), 2018.10.26.
+- 문현수, 김수현, 민지원, 박종현, 이형진, **KSB 인공지능 프레임워크 활용 공모전**, 우수상(일반개인 부문), 2018.10.26.
 
 ***
 
