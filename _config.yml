@@ -30,7 +30,7 @@ github_username: HyungJiny
 markdown: kramdown
 #theme: minima
 #theme: jekyll-theme-basically-basic
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+remote_theme: "thelehhman/plainwhite-jekyll"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
