@@ -72,7 +72,7 @@ $ pip install mecab-python3
     - 현재 튜토리얼에서는 ~/mecab-ko-dic-2.1.1-20180720 에서 진행 중
 - user-dic 안에 nnp.csv 양식을 따름
     - user-dic/nnp.csv 을 복사하여 nng.csv를 생성하면 개인 고유명사 사전 생성에 편함
-        - `cp nnp.csv nng.csv`
+        - `cp user-dic/nnp.csv user-dic/nng.csv`
     - [사전 형식표](https://docs.google.com/spreadsheets/d/1-9blXKjtjeKZqsf4NzHeYJCrr49-nXeRF6D80udfcwY/edit#gid=1)
 - nng.csv 생성 예시
 <img src="https://user-images.githubusercontent.com/11986878/77546294-00548680-6eef-11ea-93c3-46b27436a90e.png" width="60%">
