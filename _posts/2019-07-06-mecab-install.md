@@ -15,7 +15,7 @@ categories: Python
 
 ### Mecab-ko 설치
 
-- Mecab-ko 사이트 : https://bitbucket.org/eunjeon/mecab-ko/downloads/
+- Mecab-ko 사이트 : <https://bitbucket.org/eunjeon/mecab-ko/downloads/>
 
 ```bash
 # Home 디렉토리에서 작업
@@ -36,7 +36,7 @@ mecab of 0.996/ko-0.9.2
 
 ### Mecab-ko-dic 설치
 
-- Mecab-ko-dic 사이트 : https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/
+- Mecab-ko-dic 사이트 : <https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/>
 
 ```bash
 # Home 디렉토리에서 작업
@@ -48,7 +48,7 @@ $ sudo make install
 # /usr/bin/install -c -m 644 model.bin matrix.bin char.bin sys.dic unk.dic left-id.def right-id.def rewrite.def pos-id.def dicrc ‘/usr/local/lib/mecab/dic/mecab-ko-dic’가 나오면 완료
 ```
 
-### Mecab 설치 테스트
+#### Mecab 설치 테스트
 
 ```bash
 $ mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
@@ -84,7 +84,7 @@ $ pip install mecab-python3
     - [사전 형식표](https://docs.google.com/spreadsheets/d/1-9blXKjtjeKZqsf4NzHeYJCrr49-nXeRF6D80udfcwY/edit#gid=1)
 - nng.csv 생성 예시
 
-<img src="https://user-images.githubusercontent.com/11986878/77546294-00548680-6eef-11ea-93c3-46b27436a90e.png" width="60%">
+<img src="https://user-images.githubusercontent.com/11986878/77546294-00548680-6eef-11ea-93c3-46b27436a90e.png" width="70%">
 
 ```bash
 # coreutils가 설치되어있지 않으면 경로 에러 발생
@@ -99,8 +99,8 @@ $ mecab –d /usr/local/lib/mecab/dic/mecab-ko-dic
 
 - python에서 사전 적용 테스트
 
-<img src="https://user-images.githubusercontent.com/11986878/77546243-e87d0280-6eee-11ea-921b-142b0005be5a.png" width="60%">
+<img src="https://user-images.githubusercontent.com/11986878/77546243-e87d0280-6eee-11ea-921b-142b0005be5a.png" width="70%">
 
 ---
 ## 참고문헌
-- http://eunjeon.blogspot.com/2014/06/blog-post.html
+- <http://eunjeon.blogspot.com/2014/06/blog-post.html>
