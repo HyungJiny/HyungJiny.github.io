@@ -14,7 +14,9 @@ categories: Python
     - brew가 설치되어 있지 않은 경우  https://brew.sh/ 에서 설치
 
 ### Mecab-ko 설치
+
 - Mecab-ko 사이트 : https://bitbucket.org/eunjeon/mecab-ko/downloads/
+
 ```bash
 # Home 디렉토리에서 작업
 $ wget https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
@@ -33,7 +35,9 @@ mecab of 0.996/ko-0.9.2
 ```
 
 ### Mecab-ko-dic 설치
+
 - Mecab-ko-dic 사이트 : https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/
+
 ```bash
 # Home 디렉토리에서 작업
 $ wget https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.1.1-20180720.tar.gz
@@ -45,6 +49,7 @@ $ sudo make install
 ```
 
 ### Mecab 설치 테스트
+
 ```bash
 $ mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
 오늘은 날씨가 좋다
@@ -57,10 +62,12 @@ $ mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
 EOS
 # Ctrl + c 로 실행 취소
 ```
+
 - [품사 태그표](https://docs.google.com/spreadsheets/d/1-9blXKjtjeKZqsf4NzHeYJCrr49-nXeRF6D80udfcwY/edit#gid=4)
 
 ### Python에서 설치한 Mecab 이용하기
 - python3의 mecab 라이브러리 설치 후 로컬에 설치된 사전으로 tagger를 생성
+
 ```bash
 $ pip install mecab-python3
 ```
@@ -68,6 +75,7 @@ $ pip install mecab-python3
 ![jupyter-mecab](https://user-images.githubusercontent.com/11986878/77544062-e06f9380-6eeb-11ea-8d59-c82885cb5e13.png)
 
 ### 개인 사전 단어 추가하기
+
 - 위에서 다운로드한 Mecab-ko-dic 디렉토리에서 작업 진행
     - 현재 튜토리얼에서는 ~/mecab-ko-dic-2.1.1-20180720 에서 진행 중
 - user-dic 안에 nnp.csv 양식을 따름
@@ -75,6 +83,7 @@ $ pip install mecab-python3
         - `cp user-dic/nnp.csv user-dic/nng.csv`
     - [사전 형식표](https://docs.google.com/spreadsheets/d/1-9blXKjtjeKZqsf4NzHeYJCrr49-nXeRF6D80udfcwY/edit#gid=1)
 - nng.csv 생성 예시
+
 <img src="https://user-images.githubusercontent.com/11986878/77546294-00548680-6eef-11ea-93c3-46b27436a90e.png" width="60%">
 
 ```bash
@@ -89,6 +98,7 @@ $ mecab –d /usr/local/lib/mecab/dic/mecab-ko-dic
 ```
 
 - python에서 사전 적용 테스트
+
 <img src="https://user-images.githubusercontent.com/11986878/77546243-e87d0280-6eee-11ea-921b-142b0005be5a.png" width="60%">
 
 ---
