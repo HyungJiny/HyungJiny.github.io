@@ -52,25 +52,25 @@ permalink: /about/
 ## 출판(Publication)
 
 ### International Conference
-1. Hyunsu Mun, Hyungjin  Lee, Soohyun Kim, and Youngseok Lee, **A Smart Speaker Measurement Tool**, ACM/SIGAPP Symposium on Applied Computing (SAC), 2020.03 (23.8%, BK Renowned Conference)
-2. Hyungjin Lee, Hyunsu Mun and Youngseok Lee, **[Comparing Response Time of Home IoT Devices with or without Cloud](https://www.semanticscholar.org/paper/Comparing-Response-Time-of-Home-IoT-Devices-with-or-Lee/98dfbfcdbf09e6bf7a8992752b2752bd6094d132)**, IEEE ICCE 2020, 2020.01.4-6
-3. 	Hyunsu Mun, Hyungjin Lee, Soohyun Kim, Youngseok Lee, **[Measurement of Smart Speaker Wake-up Response Time with Camera (poster)](https://dl.acm.org/citation.cfm?id=3328608)**, MobiSys'19, 2019.06.
+1. Hyunsu Mun, Hyungjin  Lee, Soohyun Kim, and Youngseok Lee, **"A Smart Speaker Measurement Tool"**, ACM/SIGAPP Symposium on Applied Computing (SAC), 2020.03 (23.8%, BK Renowned Conference)
+2. Hyungjin Lee, Hyunsu Mun and Youngseok Lee, **["Comparing Response Time of Home IoT Devices with or without Cloud"](https://www.semanticscholar.org/paper/Comparing-Response-Time-of-Home-IoT-Devices-with-or-Lee/98dfbfcdbf09e6bf7a8992752b2752bd6094d132)**, IEEE ICCE 2020, 2020.01.4-6
+3. 	Hyunsu Mun, Hyungjin Lee, Soohyun Kim, Youngseok Lee, **["Measurement of Smart Speaker Wake-up Response Time with Camera (poster)"](https://dl.acm.org/citation.cfm?id=3328608)**, MobiSys'19, 2019.06.
 4. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **["Insights from Analysis of Video Streaming Data to Improve Resource Management"](https://arxiv.org/abs/1806.08516)**, CloudNet, 2018.09.
-5. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings"](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
+5. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
 
 ### Domestic Journal
-1. 문현수, 이형진, 남현규, 이영석, **[“모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구”](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
+1. 문현수, 이형진, 남현규, 이영석, **["모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구"](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
 
 ### Domestic Conference
 1. 이형진, 남현규, 문현수, 이영석, **["인터넷 커뮤니티 특색에 따른 하이라이트 생성 모델"](https://drive.google.com/file/d/1KIJbMy7urieNBE-n7WHM7cWIwSsoVzMJ/view?usp=sharing)**, 한국정보과학회 학술대회, 2018.12.
-2. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **[“라즈베리파이를 이용한 학내 유동인구 측정”](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017.12.
-3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **[“오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현”](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
-4. 이형진, 문현수, 이영석, **[“비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션”](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016.12.
+2. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **["라즈베리파이를 이용한 학내 유동인구 측정"](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017.12.
+3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **["오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현"](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
+4. 이형진, 문현수, 이영석, **["비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션"](https://drive.google.com/file/d/0BzlOUWdS-xdmQ2VrRUVsa29tVzQ/view)**, 한국정보과학회 학술대회, 2016.12.
 
 ### Software
-1. 이형진, 이영석, **[“사용자 행동 기반 이미지 분석 스마트 전구 제어 소프트웨어”](https://drive.google.com/file/d/1joCVtWEb6tm1U8qdr2EHS9oSuspoX1Va/view?usp=sharing)**, 등록번호 C-2019-042185, 2019.12.23
-2. 이형진, 이영석,  **[“하이라이트 제목 생성을 위한 시청자 자료 수집기”](https://drive.google.com/file/d/1qFiJWalSJCWv2159p8b5PqQSQPcUCed6/view)**, 등록번호 C-2018-035357, 2018.11.29.
-3. 이형진, 이영석, **[“오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램”](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13.
+1. 이형진, 이영석, **["사용자 행동 기반 이미지 분석 스마트 전구 제어 소프트웨어"](https://drive.google.com/file/d/1joCVtWEb6tm1U8qdr2EHS9oSuspoX1Va/view?usp=sharing)**, 등록번호 C-2019-042185, 2019.12.23
+2. 이형진, 이영석,  **["하이라이트 제목 생성을 위한 시청자 자료 수집기"](https://drive.google.com/file/d/1qFiJWalSJCWv2159p8b5PqQSQPcUCed6/view)**, 등록번호 C-2018-035357, 2018.11.29.
+3. 이형진, 이영석, **["오버 더 탑(OTT) 서비스 시청 기록을 통한 사용자 특징 분류 프로그램"](https://drive.google.com/file/d/1ZCjrYXZHzcpi_vODCi2bCDYuKBrcHb-P/view)**, 등록번호 C-2018-017777, 2018.07.13.
 
 ***
 
@@ -84,10 +84,10 @@ permalink: /about/
 - **[문제해결형 인공지능 실무교육](https://drive.google.com/file/d/1Ffxe3RBg0j-gck20fKWE06-oQ7h-mUuP/view?usp=sharing)**, KEPCO, 2019.01.14. ~ 2019.01.18.
 - **[초연결 지식융합 인공지능(AI) 서비스 개발을 위한 KSB 인공지능 프레임워크 이해 및 활용](https://drive.google.com/file/d/1bkC8SZStPvvG_Fg7eTU8RW3jxHxLeInw/view?usp=sharing)**, ETRI, 2018.08.16. ~ 2018.08.17.
 - **[Chungnam National University / Purdue University National Center for Excellence in Software Program 2017](https://drive.google.com/open?id=12uuAzWuaf2R9Bq6xfqw2vRfgBSNrlzSW)**, Center for Robotic Innovation, Commercialization and Education(RICE), Purdue University, 2017.01. ~ 2017.02.
-- **An Introduction to Interactive Programming in Python (Part 2)**, Coursera Course Certificates, *License 988Z8R7C5GB7*, 2016.09.
-- **An Introduction to Interactive Programming in Python (Part 1)**, Coursera Course Certificates, *License SHBGYMXQZ4*, 2016.02.
-- **Principles of Computing (Part 1)**, Coursera Course Certificates, *License ZZNRQBVQRR*, 2016.02.
-- **Programming for Everybody (Python)**, Coursera Course Certificates, *License SJGYNJ9WCH*, 2015.08.
+- **[An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/account/accomplishments/certificate/988Z8R7C5GB7)**, Coursera Course Certificates, *License 988Z8R7C5GB7*, 2016.09.
+- **[An Introduction to Interactive Programming in Python (Part 1)](https://drive.google.com/file/d/1KCy1Qfk3o0yIs9LGOazoDK5v91GjtF31/view)**, Coursera Course Certificates, *License SHBGYMXQZ4*, 2016.02.
+- **[Principles of Computing (Part 1)](https://drive.google.com/file/d/1BbQzxJfLN5TZ30_tRdtMpUdKdvLZEirS/view)**, Coursera Course Certificates, *License ZZNRQBVQRR*, 2016.02.
+- **[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/certificate/SJGYNJ9WCH)**, Coursera Course Certificates, *License SJGYNJ9WCH*, 2015.08.
 
 ### 수상 이력(Awards)
 - 문현수, 김수현, 민지원, 박종현, 이형진, **[KSB 인공지능 프레임워크 활용 공모전](https://drive.google.com/file/d/1fItOBJj5OJPRRoEV-Mq6bFTpuS7_eBvF/view?usp=sharing)**, ETRI, 우수상(일반개인 부문), 2018.10.26.
