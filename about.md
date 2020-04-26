@@ -43,7 +43,8 @@ permalink: /about/
 - Ubuntu
 
 ### Process
-- Trello, Github
+- Github
+- Trello
 
 ***
 
