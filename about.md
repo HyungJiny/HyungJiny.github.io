@@ -43,9 +43,7 @@ permalink: /about/
 - Ubuntu
 
 ### Process
-- 커뮤니케이션: Slack, Discord
-- 버전 관리: Git
-- 이슈 관리 : Trello, Github
+- Trello, Github
 
 ***
 
@@ -75,6 +73,7 @@ permalink: /about/
 ***
 
 ## 자격증(Certifications)
+- **OPIc(English) IM2**, ACTFL, 어학능력, 2019.09.02
 - **비서 2급**, 대한상공회의소, 국가기술자격, *License SHBGYMXQZ4*, 2014.12.
 - **한국실용글쓰기검정 3급**, 한국국어능력평가협회, 국가공인자격, *License 14GD0052*, 2014.05.08. ~ 2019.05.08.
 - **Microsoft Office Specialist 2010 Master**, YBM IT, *License Um6r-s2cm*, 2014.01.
