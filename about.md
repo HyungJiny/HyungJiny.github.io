@@ -55,7 +55,7 @@ permalink: /about/
 2. Hyungjin Lee, Hyunsu Mun and Youngseok Lee, **["Comparing Response Time of Home IoT Devices with or without Cloud"](https://www.semanticscholar.org/paper/Comparing-Response-Time-of-Home-IoT-Devices-with-or-Lee/98dfbfcdbf09e6bf7a8992752b2752bd6094d132)**, IEEE ICCE 2020, 2020.01.4-6
 3. 	Hyunsu Mun, Hyungjin Lee, Soohyun Kim, Youngseok Lee, **["Measurement of Smart Speaker Wake-up Response Time with Camera (poster)"](https://dl.acm.org/citation.cfm?id=3328608)**, MobiSys'19, 2019.06.
 4. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **["Insights from Analysis of Video Streaming Data to Improve Resource Management"](https://arxiv.org/abs/1806.08516)**, CloudNet, 2018.09.
-5. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
+5. Minsung Kim, Geungyoung Kim, Jeonghyeon Lee, Sujin Kim, Hyungjin Lee, Rachel Sanders, Eric T. Matson, **["IoT infrastructure to increase access to non-ADA buildings"](https://ieeexplore.ieee.org/document/8095337/)**, BioSMART, 2017.11.
 
 ### Domestic Journal
 1. 문현수, 이형진, 남현규, 이영석, **["모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구"](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
