@@ -51,7 +51,7 @@ permalink: /about/
 ## 출판(Publication)
 
 ### International Conference
-1. Hyunsu Mun, Hyungjin  Lee, Soohyun Kim, and Youngseok Lee, **"A Smart Speaker Measurement Tool"**, ACM/SIGAPP Symposium on Applied Computing (SAC), 2020.03 (23.8%, BK Renowned Conference)
+1. Hyunsu Mun, Hyungjin  Lee, Soohyun Kim, and Youngseok Lee, **["A Smart Speaker Measurement Tool"](https://dl.acm.org/doi/abs/10.1145/3341105.3373990)**, ACM/SIGAPP Symposium on Applied Computing (SAC), 2020.03 (23.8%, BK Renowned Conference)
 2. Hyungjin Lee, Hyunsu Mun and Youngseok Lee, **["Comparing Response Time of Home IoT Devices with or without Cloud"](https://www.semanticscholar.org/paper/Comparing-Response-Time-of-Home-IoT-Devices-with-or-Lee/98dfbfcdbf09e6bf7a8992752b2752bd6094d132)**, IEEE ICCE 2020, 2020.01.4-6
 3. 	Hyunsu Mun, Hyungjin Lee, Soohyun Kim, Youngseok Lee, **["Measurement of Smart Speaker Wake-up Response Time with Camera (poster)"](https://dl.acm.org/citation.cfm?id=3328608)**, MobiSys'19, 2019.06.
 4. Sabidur Rahman, Hyunsu Mun, Hyongjin Lee, Youngseok Lee, Massimo Tornatore, Biswanath Mukherjee, **["Insights from Analysis of Video Streaming Data to Improve Resource Management"](https://arxiv.org/abs/1806.08516)**, CloudNet, 2018.09.
