@@ -104,7 +104,7 @@ permalink: /about/
     - 기간: 2017.06. ~ 2017.08.
     - 소속: SW콘텐츠연구소 SW기반기술연구본부 고신뢰CPS연구그룹
     - 내용: 스마트팩토리 설비 관리 시스템 개선
-    - 기술: Java, Android, PHP, Apache, Ubuntu
+    - 기술: Java, Android, PHP, Apache, Ubuntu, Docker
 
 ***
 
