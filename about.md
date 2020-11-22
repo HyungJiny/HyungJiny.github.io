@@ -36,6 +36,11 @@ permalink: /about/
 - Spark
 - Docker
 
+### Database
+- MariaDB
+- PostgreSQL
+- Neo4j
+
 ### Web
 - Django
 
