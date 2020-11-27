@@ -69,7 +69,7 @@ permalink: /about/
 1. 이형진, 남현규, 문현수, 이영석, **["인터넷 커뮤니티 특색에 따른 하이라이트 생성 모델"](https://drive.google.com/file/d/1KIJbMy7urieNBE-n7WHM7cWIwSsoVzMJ/view?usp=sharing)**, 한국정보과학회 학술대회, 2018.12.
 2. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **["라즈베리파이를 이용한 학내 유동인구 측정"](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017.12.
 3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **["오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현"](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
-4. 이형진, 문현수, 이영석, **["비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션"](https://drive.google.com/file/d/1cUKBPuwCfuzHEupusnz5CGRLvUZh9Ok-/view?usp=drivesdk)**, 한국정보과학회 학술대회, 2016.12.
+4. 이형진, 문현수, 이영석, **["비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션"](https://drive.google.com/file/d/1cUKBPuwCfuzHEupusnz5CGRLvUZh9Ok-/view?usp=sharing)**, 한국정보과학회 학술대회, 2016.12.
 
 ### Software
 1. 이형진, 이영석, **["사용자 행동 기반 이미지 분석 스마트 전구 제어 소프트웨어"](https://drive.google.com/file/d/1joCVtWEb6tm1U8qdr2EHS9oSuspoX1Va/view?usp=sharing)**, 등록번호 C-2019-042185, 2019.12.23
