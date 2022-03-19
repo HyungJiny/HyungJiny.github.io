@@ -14,7 +14,7 @@ permalink: /about/
 - **LinkeIn**: [linkedin.com/in/hyungjin-lee](https://www.linkedin.com/in/hyungjin-lee-17a647113)
 - **Instagram**: [@hyung_jiny](https://www.instagram.com/hyung_jiny)
 - **관심 분야**: 빅데이터, 딥러닝, 네트워크, 웹, IoT, 인포그래픽
-- **취미**: 사진, 여행, 영화, 서점 탐방, 타로 리딩, 키보드 커스텀, 개발자 블로그 탐방, 친구랑 카페에서 모각코(모여서 각자 코딩), 크라우드펀딩
+- **취미**: 사진, 여행, 영화, 타로 리딩, 개발자 블로그 탐방
 - **군필 여부**: 만기제대(1111)
 
 > 느린만큼 섬세한 개발자 이형진입니다.
@@ -29,20 +29,20 @@ permalink: /about/
 ### Program Language
 - **Python**
 - Java
-- C
+- Javascript
 
 ### Server
 - Hadoop
-- Spark
 - Docker
 
 ### Database
 - MariaDB
 - PostgreSQL
 - Neo4j
+- Elasticsearch
 
 ### Web
-- Django
+- Flask
 
 ### OS
 - Ubuntu
@@ -79,6 +79,7 @@ permalink: /about/
 ***
 
 ## 자격증(Certifications)
+- **정보처리기사**, 한국산업인력공단, *License 21203010665M* 2021.11.26
 - **OPIc(English) IM2**, ACTFL, 어학능력, 2019.09.02
 - **비서 2급**, 대한상공회의소, 국가기술자격, *License SHBGYMXQZ4*, 2014.12.
 - **한국실용글쓰기검정 3급**, 한국국어능력평가협회, 국가공인자격, *License 14GD0052*, 2014.05.08. ~ 2019.05.08.
