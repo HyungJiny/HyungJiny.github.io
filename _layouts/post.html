@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article>
+  <header class="post-hero section wrap" style="padding-bottom:0;">
+    <div class="reveal" style="max-width:74ch;">
+      <a class="eyebrow" href="{{ '/#writing' | relative_url }}" style="cursor:pointer;">← 개발 일기장</a>
+      <h1>{{ page.title }}</h1>
+      <div class="post-hero__meta">
+        {% if page.categories.first %}<span class="tag">{{ page.categories.first }}</span>{% endif %}
+        <span>{{ page.date | date: "%Y.%m.%d" }}</span>
+        {% if page.read_time %}
+          {% assign words = content | number_of_words %}
+          <span>약 {{ words | divided_by: 300 | plus: 1 }}분 읽기</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="section wrap" style="padding-top:clamp(2rem,4vw,3rem);">
+    <div class="prose reveal">
+      {{ content }}
+    </div>
+
+    <nav class="post-nav" style="max-width:74ch;">
+      {% if page.previous %}
+        <a class="prev" href="{{ page.previous.url | relative_url }}">
+          <span class="dir">← 이전 글</span><span class="t">{{ page.previous.title }}</span>
+        </a>
+      {% else %}<span></span>{% endif %}
+      {% if page.next %}
+        <a class="next" href="{{ page.next.url | relative_url }}">
+          <span class="dir">다음 글 →</span><span class="t">{{ page.next.title }}</span>
+        </a>
+      {% else %}<span></span>{% endif %}
+    </nav>
+  </div>
+</article>

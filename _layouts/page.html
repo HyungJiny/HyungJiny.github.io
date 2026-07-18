@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="section wrap">
+  <header class="section-head reveal">
+    <p class="eyebrow">{{ page.eyebrow | default: 'Profile' }}</p>
+    <h2 style="font-size:clamp(2rem,5vw,3.25rem);">{{ page.title }}</h2>
+    {% if page.subtitle %}<p class="page__subtitle" style="margin-top:1rem;">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <div class="prose prose--wide reveal">
+    {{ content }}
+  </div>
+</article>

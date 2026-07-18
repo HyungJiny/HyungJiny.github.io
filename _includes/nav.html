@@ -1,0 +1,26 @@
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="dot"></span>Hyungjin&nbsp;Lee
+    </a>
+
+    <div class="nav__scrim" id="navScrim"></div>
+    <nav class="nav__links" id="navLinks" aria-label="주요 메뉴">
+      {% assign p = page.url %}
+      <a class="nav__link {% if p == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="nav__link {% if p contains '/about' %}is-active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="nav__link {% if page.layout == 'post' %}is-active{% endif %}" href="{{ '/#writing' | relative_url }}">Writing</a>
+      <a class="nav__link" href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+
+    <div style="display:flex; gap:.5rem; align-items:center;">
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="다크 모드 전환" type="button">
+        <span class="moon">{% include icon.html name='moon' %}</span>
+        <span class="sun">{% include icon.html name='sun' %}</span>
+      </button>
+      <button class="icon-btn nav__burger" id="navBurger" aria-label="메뉴 열기" aria-expanded="false" type="button">
+        <span class="open">{% include icon.html name='menu' %}</span>
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<!--
+  이 파일은 "템플릿"이라 보통 손댈 필요가 없습니다.
+  홈 화면의 실제 내용(이름 · 태그라인 · 지표 · 스킬 등)은 전부 index.md 에서 편집합니다.
+-->
+
+<section class="hero section wrap">
+  <div class="hero__grid">
+    <div class="hero__text" data-stagger>
+      <p class="eyebrow">{{ page.hero_eyebrow | default: 'Portfolio' }}</p>
+      <h1 class="hero__name">
+        {{ page.hero_name_line1 | default: 'Hyungjin' }}<br><span class="accent">{{ page.hero_name_line2 | default: 'Lee.' }}</span>
+        {% if page.hero_name_ko %}<span class="hero__ko">{{ page.hero_name_ko }}</span>{% endif %}
+      </h1>
+      {% if page.hero_tagline %}<div class="hero__tag">{{ page.hero_tagline | markdownify }}</div>{% endif %}
+      <div class="hero__cta">
+        {% if page.hero_cta_text %}
+        <a class="btn" href="{{ page.hero_cta_url | default: '/about/' | relative_url }}">
+          {{ page.hero_cta_text }} {% include icon.html name='arrow-right' %}
+        </a>
+        {% endif %}
+        {% if site.social.github %}
+        <a class="btn btn--ghost" href="{{ site.social.github }}" target="_blank" rel="noopener">
+          {% include icon.html name='github' %} GitHub
+        </a>
+        {% endif %}
+      </div>
+      {% if page.hero_meta %}
+      <dl class="hero__meta">
+        {% for m in page.hero_meta %}
+        <div><dt>{{ m.label }}</dt><dd>{{ m.value }}</dd></div>
+        {% endfor %}
+      </dl>
+      {% endif %}
+    </div>
+
+    <div class="hero__visual reveal">
+      <div class="orb" aria-hidden="true"></div>
+      <div class="hero__card" aria-hidden="true">
+        <div class="dots"><i></i><i></i><i></i></div>
+        {% for line in page.hero_code %}
+        <div class="row"><span class="k">{{ line.k }}</span><span class="c">{{ line.sep | default: '=' }}</span><span class="v">{{ line.v }}</span></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="writing">
+  <div class="section-head reveal">
+    <p class="eyebrow">Writing</p>
+    <h2>{{ page.writing_title | default: '개발 일기장' }}</h2>
+  </div>
+  <div class="posts-grid" data-stagger>
+    {% for post in site.posts limit: 6 %}
+    <a class="card post-card" href="{{ post.url | relative_url }}">
+      {% if post.categories.first %}<span class="post-card__cat">{{ post.categories.first }}</span>{% endif %}
+      <h3 class="post-card__title">{{ post.title }}</h3>
+      <div class="post-card__meta">
+        <span>{{ post.date | date: "%Y.%m.%d" }}</span>
+        <span class="post-card__arrow">{% include icon.html name='arrow-ur' %}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% if page.skills %}
+<section class="section wrap" id="skills">
+  <div class="teaser">
+    <div class="section-head reveal" style="margin-bottom:0;">
+      <p class="eyebrow">Toolbox</p>
+      <h2>{{ page.skills_title | default: '주로 쓰는 기술' }}</h2>
+    </div>
+    <div class="chips reveal">
+      {% for s in page.skills %}
+      <span class="chip {% if s.star %}chip--star{% endif %}">{{ s.name }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% assign body = content | strip %}
+{% if body != '' %}
+<section class="section wrap">
+  <div class="prose reveal">
+    {{ content }}
+  </div>
+</section>
+{% endif %}

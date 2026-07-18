@@ -1,66 +1,57 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# This config file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, restart the server.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Hyungjin의 개발 일기장
+title: Hyungjin Lee
+tagline: "느린 만큼 섬세한 개발자"
 email: hyungjin.lee1004@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Minimalism Developer
+  데이터 엔지니어링을 공부하는 개발자 이형진의 포트폴리오와 개발 일기장.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hyungjiny.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hyungjiny.github.io/" # the base hostname & protocol for your site
+lang: ko-KR
+
 author:
   name: "Hyungjin Lee"
-  picture: /images/profile.jpg
+  name_ko: "이형진"
 
-# twitter_username: jekyllrb
+# Social / contact
 github_username: HyungJiny
+social:
+  github: "https://github.com/HyungJiny"
+  linkedin: "https://www.linkedin.com/in/hyungjin-lee-17a647113"
+  instagram: "https://www.instagram.com/hyung_jiny"
 
-# Build settings
+# Build settings — fully self-themed (no remote theme).
 markdown: kramdown
-#theme: minima
-# theme: jekyll-theme-basically-basic
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
-plugins: # previsously gems
+sass:
+  style: compressed
+
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+
 feed:
   path: atom.xml
-  
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Front Matter Defaults
 defaults:
-  # _posts
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
       read_time: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - README.md
+  - DESIGN.md
+  - vendor
+  - .bundle
