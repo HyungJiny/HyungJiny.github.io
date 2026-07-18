@@ -1,0 +1,19 @@
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"   # site
+      - "35729:35729" # livereload
+    volumes:
+      # Mount the project so content edits are picked up live.
+      - .:/site
+      # Keep the container's bundled gems out of the host mount.
+      - bundle:/usr/local/bundle
+    command: >
+      bundle exec jekyll serve
+      --host 0.0.0.0
+      --livereload
+      --force_polling
+
+volumes:
+  bundle:

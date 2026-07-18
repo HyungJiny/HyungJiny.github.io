@@ -12,11 +12,15 @@ source "https://rubygems.org"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
-gem "jekyll-theme-basically-basic"
+# The theme is loaded via `remote_theme` in _config.yml, so the theme gem is not needed here.
+# gem "jekyll-theme-basically-basic"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
- gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
+
+# Ruby 3.0+ no longer ships webrick in the standard library, but `jekyll serve` needs it.
+gem "webrick"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

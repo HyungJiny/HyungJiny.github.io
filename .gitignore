@@ -2,3 +2,13 @@ _site
 .sass-cache
 .jekyll-metadata
 .swp
+
+# Local dependency artifacts (installed inside the Docker container)
+vendor/
+.bundle/
+
+# Claude / OMC local working environment
+.omc/
+.claude/
+CLAUDE.md
+AGENTS.md
