@@ -49,6 +49,24 @@ layout: default
   </div>
 </section>
 
+{% if site.data.projects and site.data.projects.size > 0 %}
+<section class="section wrap" id="projects">
+  <div class="section-head reveal">
+    <p class="eyebrow">Projects</p>
+    <h2>{{ page.projects_title | default: '프로젝트' }}</h2>
+  </div>
+  {% assign home_projects = site.data.projects | slice: 0, 3 %}
+  {% include project-cards.html projects=home_projects %}
+  {% if site.data.projects.size > 3 %}
+  <div class="reveal" style="margin-top:1.75rem;">
+    <a class="btn btn--ghost" href="{{ '/projects/' | relative_url }}">
+      모든 프로젝트 보기 {% include icon.html name='arrow-right' %}
+    </a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
 <section class="section wrap" id="writing">
   <div class="section-head reveal">
     <p class="eyebrow">Writing</p>

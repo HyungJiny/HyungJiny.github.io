@@ -31,6 +31,9 @@ hero_code:
   - { k: "langs",  v: '["Python", "Java"]' }
   - { k: "status", v: '"curious 🌱"' }
 
+# 프로젝트 섹션 제목 (목록은 _data/projects.yml 에서 관리 — 홈엔 앞 3개만 자동 표시)
+projects_title: "프로젝트"
+
 # "Writing" 섹션 제목 (글 목록은 _posts 에서 자동)
 writing_title: "개발 일기장"
 

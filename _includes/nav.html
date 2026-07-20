@@ -8,6 +8,7 @@
     <nav class="nav__links" id="navLinks" aria-label="주요 메뉴">
       {% assign p = page.url %}
       <a class="nav__link {% if p == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="nav__link {% if p contains '/projects' %}is-active{% endif %}" href="{{ '/projects/' | relative_url }}">Projects</a>
       <a class="nav__link {% if p contains '/about' %}is-active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
       <a class="nav__link {% if page.layout == 'post' %}is-active{% endif %}" href="{{ '/#writing' | relative_url }}">Writing</a>
       <a class="nav__link" href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>

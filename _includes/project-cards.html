@@ -1,0 +1,27 @@
+{%- comment -%}
+  프로젝트 카드 그리드. 사용법: {% include project-cards.html projects=page.projects %}
+{%- endcomment -%}
+{% if include.projects %}
+<div class="projects-grid" data-stagger>
+  {% for p in include.projects %}
+    {% capture project_inner %}
+      <div class="project-card__top">
+        {% if p.period %}<span class="project-card__period">{{ p.period }}</span>{% endif %}
+        {% if p.url %}<span class="project-card__arrow">{% include icon.html name='arrow-ur' %}</span>{% endif %}
+      </div>
+      <h3 class="project-card__title">{{ p.name }}</h3>
+      {% if p.description %}<p class="project-card__desc">{{ p.description }}</p>{% endif %}
+      {% if p.tags %}
+      <div class="chips project-card__tags">
+        {% for t in p.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    {% endcapture %}
+    {% if p.url %}
+      <a class="card project-card" href="{{ p.url }}" target="_blank" rel="noopener">{{ project_inner }}</a>
+    {% else %}
+      <div class="card project-card">{{ project_inner }}</div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
