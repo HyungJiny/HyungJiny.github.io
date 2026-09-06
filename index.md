@@ -13,7 +13,7 @@ hero_name_line1: "Hyungjin"
 hero_name_line2: "Lee."
 hero_name_ko: "이형진"
 hero_tagline: >
-  **느린 만큼 섬세한 개발자.** 데이터 엔지니어링에서 출발해,
+  **호기심이 많은 개발자.** 데이터 엔지니어링에서 출발해,
   지금은 LLM 서비스를 만들고 운영합니다.
 hero_cta_text: "포트폴리오 보기"
 hero_cta_url: "/about/"
