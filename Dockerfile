@@ -15,8 +15,11 @@ WORKDIR /site
 RUN gem install bundler
 
 # Copy only dependency manifests first so `bundle install` is cached across
-# content edits. Gemfile.lock is intentionally absent and will be generated.
-COPY Gemfile ./
+# content edits. Gemfile.lock must be copied too: docker-compose mounts the
+# project over /site at runtime, so the committed lock is what Jekyll resolves
+# against -- installing without it here would pin different gem versions and
+# fail at startup with "Could not find <gem> in locally installed gems".
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 # Application source is mounted at runtime via docker-compose (see command).

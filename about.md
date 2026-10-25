@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 eyebrow: Portfolio
-subtitle: 데이터, 머신러닝을 거쳐 LLM 엔지니어링을 공부하며 성장을 꿈꾸는 개발자, 이형진입니다.
+subtitle: LLM 서비스를 만들고 운영하는 개발자, 이형진입니다.
 ---
 
 ## 소개 (Introduce)
@@ -13,12 +13,12 @@ subtitle: 데이터, 머신러닝을 거쳐 LLM 엔지니어링을 공부하며 
 - **Github**: [github.com/HyungJiny](https://github.com/HyungJiny)
 - **LinkedIn**: [linkedin.com/in/hyungjin-lee](https://www.linkedin.com/in/hyungjin-lee-17a647113)
 - **Instagram**: [@hyung_jiny](https://www.instagram.com/hyung_jiny)
-- **관심 분야**: 빅데이터, 딥러닝, 네트워크, 시스템 엔지니어링
+- **관심 분야**: 빅데이터, 언어모델, 네트워크, 시스템 엔지니어링, Ops
 - **취미**: 사진, 타로 리딩
 - **군필 여부**: 의경 만기제대
 
-> 사람들의 행동 변화를 데이터 기반으로 관찰하고 분석하는 것을 좋아해서 데이터 엔지니어링과 머신러닝 엔지니어링을 거쳐, 지금은 LLM 엔지니어링을 주로 공부하고 있습니다.
-> 주로 Python을 이용하여 개발하며, 호기심이 많고 얼리어답터 기질이 있어 새로 출시되는 제품들에 관심이 많습니다.
+> 사람들의 행동 변화를 데이터로 관찰하고 분석하는 일을 좋아해 데이터 엔지니어링과 머신러닝 엔지니어링을 거쳐, 지금은 LLM 엔지니어링을 하고 있습니다.
+> 주로 Python으로 개발하며, 새로 나온 도구는 직접 써보고 판단하는 편입니다.
 
 ## 보유 기술 (Skills)
 
@@ -28,77 +28,74 @@ subtitle: 데이터, 머신러닝을 거쳐 LLM 엔지니어링을 공부하며 
     <div class="chips">
       <span class="chip chip--star">Python</span>
       <span class="chip">Java</span>
-      <span class="chip">JavaScript</span>
     </div>
   </div>
   <div class="skill-cat">
-    <h4>Server</h4>
+    <h4>LLM Serving</h4>
     <div class="chips">
-      <span class="chip chip--star">Docker</span>
-      <span class="chip">Kubernetes</span>
-      <span class="chip">Hadoop</span>
+      <span class="chip chip--star">vLLM</span>
+      <span class="chip">LangChain</span>
+    </div>
+  </div>
+  <div class="skill-cat">
+    <h4>LLM Training</h4>
+    <div class="chips">
+      <span class="chip chip--star">PyTorch</span>
+      <span class="chip">Hugging Face</span>
+      <span class="chip">Unsloth</span>
+      <span class="chip">MLflow</span>
+    </div>
+  </div>
+  <div class="skill-cat">
+    <h4>Backend &amp; Web</h4>
+    <div class="chips">
+      <span class="chip chip--star">FastAPI</span>
+      <span class="chip">Flask</span>
+      <span class="chip">Streamlit</span>
+    </div>
+  </div>
+  <div class="skill-cat">
+    <h4>Search &amp; Vector</h4>
+    <div class="chips">
+      <span class="chip chip--star">OpenSearch</span>
+      <span class="chip">Qdrant</span>
     </div>
   </div>
   <div class="skill-cat">
     <h4>Database</h4>
     <div class="chips">
-      <span class="chip chip--star">OpenSearch</span>
-      <span class="chip">MariaDB</span>
       <span class="chip">PostgreSQL</span>
-      <span class="chip">Qdrant</span>
+      <span class="chip">MariaDB</span>
       <span class="chip">Neo4j</span>
-      <span class="chip">Minio</span>
-      <span class="chip">Seaweedfs</span>
     </div>
   </div>
   <div class="skill-cat">
-    <h4>LLM Serve</h4>
+    <h4>Storage &amp; Big Data</h4>
     <div class="chips">
-      <span class="chip">vLLM</span>
-      <span class="chip">FastAPI</span>
-      <span class="chip">OpenWebUI</span>
-      <span class="chip">LiteLLM</span>
+      <span class="chip">MinIO</span>
+      <span class="chip">SeaweedFS</span>
+      <span class="chip">Hadoop</span>
     </div>
   </div>
   <div class="skill-cat">
-    <h4>LLM Train</h4>
+    <h4>Infra &amp; DevOps</h4>
     <div class="chips">
-      <span class="chip">HuggingFace</span>
-      <span class="chip">Pytorch</span>
-      <span class="chip">Unsloth</span>
-    </div>
-  </div>
-  <div class="skill-cat">
-    <h4>APM</h4>
-    <div class="chips">
-      <span class="chip">PLG Stack</span>
-      <span class="chip">ELK Stack</span>
-      <span class="chip">Fluentd</span>
-      <span class="chip">LangFuse</span>
-      <span class="chip">MLflow</span>
-      <span class="chip">Locust</span>
-    </div>
-  </div>
-  <div class="skill-cat">
-    <h4>Web</h4>
-    <div class="chips">
-      <span class="chip">Streamlit</span>
-      <span class="chip">Flask</span>
-    </div>
-  </div>
-  <div class="skill-cat">
-    <h4>OS</h4>
-    <div class="chips">
+      <span class="chip chip--star">Docker</span>
+      <span class="chip">Podman</span>
+      <span class="chip">Kubernetes</span>
+      <span class="chip">GitLab</span>
       <span class="chip">Ubuntu</span>
       <span class="chip">Rocky</span>
     </div>
   </div>
   <div class="skill-cat">
-    <h4>Process</h4>
+    <h4>Observability &amp; Testing</h4>
     <div class="chips">
-      <span class="chip">Gitlab</span>
-      <span class="chip">Trello</span>
-      <span class="chip">Slack</span>
+      <span class="chip">PLG Stack</span>
+      <span class="chip">ELK Stack</span>
+      <span class="chip">Fluentd</span>
+      <span class="chip">Langfuse</span>
+      <span class="chip">Locust</span>
     </div>
   </div>
 </div>
@@ -116,9 +113,9 @@ subtitle: 데이터, 머신러닝을 거쳐 LLM 엔지니어링을 공부하며 
 1. 문현수, 이형진, 남현규, 이영석, **["모바일 비디오 스트리밍 데이터 분석 도구 및 사례 연구"](https://drive.google.com/file/d/1-HHLVv_79X7NusWvhfxZWNjXLz0xvSNy/view)**, KNOM Review, 21(1), 18-26, 2018.08.
 
 ### Domestic Conference
-1. 이형진, 남현규, 문현수, 이영석, **["인터넷 커뮤니티 특색에 따른 하이라이트 생성 모델"](https://drive.google.com/file/d/1KIJbMy7urieNBE-n7WHM7cWIwSsoVzMJ/view?usp=sharing)**, 한국정보과학회 학술대회, 2018.12.
+1. 이형진, 남현규, 문현수, 이영석, **["인터넷 커뮤니티 특색에 따른 하이라이트 생성 모델"](https://drive.google.com/file/d/1ubV_OIg9sc_9gTkHUWUNaJXI02vFLj02/view?usp=sharing)**, 한국정보과학회 학술대회, 2018.12.
 2. 이형진, 이정현, 김민성, 남현규, 문현수, 이영석, **["라즈베리파이를 이용한 학내 유동인구 측정"](https://drive.google.com/file/d/1HcKl--F8cRvdyOkwcmWWBr3GNLk86b5a/view)**, 한국정보과학회 학술대회, 2017.12.
-3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **["오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현"](https://drive.google.com/file/d/11zNeSzLd9TEC4XiR5MoOFClBNeGVEieD/view?usp=sharing)**, 한국정보과학회 학술대회, 2017.06.
+3. 김수진, 김민성, 김근영, 이정현, 이형진, 박종현, **["오픈소스를 활용한 IoT 스마트 홈 컴포넌트 설계 및 구현"](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07207748)**, 한국정보과학회 학술대회, 2017.06.
 4. 이형진, 문현수, 이영석, **["비콘의 속삭임 : 소리를 이용한 ASCII 코드 전송 어플리케이션"](https://drive.google.com/file/d/1cUKBPuwCfuzHEupusnz5CGRLvUZh9Ok-/view?usp=sharing)**, 한국정보과학회 학술대회, 2016.12.
 
 ### Software
@@ -153,7 +150,7 @@ subtitle: 데이터, 머신러닝을 거쳐 LLM 엔지니어링을 공부하며 
   <div class="tl-item">
     <span class="when">2021.03 — 재직중</span>
     <h4>(주)바이브컴퍼니</h4>
-    <p>인공지능&amp;빅데이터연구소 인공지능연구소</p>
+    <p>인공지능&amp;빅데이터연구소 AI연구소</p>
   </div>
   <div class="tl-item">
     <span class="when">2020.08 — 2021.02</span>
