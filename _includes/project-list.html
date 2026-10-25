@@ -1,0 +1,31 @@
+{%- comment -%}
+  프로젝트 리스트. 사용법: {% include project-list.html projects=some_list %}
+  각 항목은 _projects 컬렉션의 문서(기간/소속/제목/성과/역할)입니다.
+{%- endcomment -%}
+{% if include.projects and include.projects.size > 0 %}
+<div class="project-list" data-stagger>
+  {% for p in include.projects %}
+  <a class="project-row" href="{{ p.url | relative_url }}">
+    <div class="project-row__meta">
+      {% if p.period %}<span class="project-row__period">{{ p.period }}</span>{% endif %}
+      {% if p.org %}<span class="project-row__org">{{ p.org }}</span>{% endif %}
+    </div>
+    <div class="project-row__body">
+      <h3 class="project-row__title">
+        <span>{{ p.title }}</span>
+        <span class="project-row__arrow">{% include icon.html name='arrow-ur' %}</span>
+      </h3>
+      <p class="project-row__sub">
+        {% if p.role %}<span><b>역할</b> {{ p.role }}</span>{% endif %}
+        {% if p.outcome %}<span><b>성과</b> {{ p.outcome }}</span>{% endif %}
+      </p>
+      {% if p.tags %}
+      <div class="chips project-row__tags">
+        {% for t in p.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}

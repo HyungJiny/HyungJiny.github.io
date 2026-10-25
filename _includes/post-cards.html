@@ -1,0 +1,17 @@
+{%- comment -%}
+  글 카드 그리드. 사용법: {% include post-cards.html posts=some_list %}
+{%- endcomment -%}
+{% if include.posts and include.posts.size > 0 %}
+<div class="posts-grid" data-stagger>
+  {% for post in include.posts %}
+  <a class="card post-card" href="{{ post.url | relative_url }}">
+    {% if post.categories.first %}<span class="post-card__cat">{{ post.categories.first }}</span>{% endif %}
+    <h3 class="post-card__title">{{ post.title }}</h3>
+    <div class="post-card__meta">
+      <span>{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="post-card__arrow">{% include icon.html name='arrow-ur' %}</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}

@@ -49,15 +49,16 @@ layout: default
   </div>
 </section>
 
-{% if site.data.projects and site.data.projects.size > 0 %}
+{% if site.projects and site.projects.size > 0 %}
 <section class="section wrap" id="projects">
   <div class="section-head reveal">
     <p class="eyebrow">Projects</p>
     <h2>{{ page.projects_title | default: '프로젝트' }}</h2>
   </div>
-  {% assign home_projects = site.data.projects | slice: 0, 3 %}
-  {% include project-cards.html projects=home_projects %}
-  {% if site.data.projects.size > 3 %}
+  {% assign sorted_projects = site.projects | sort: 'order' %}
+  {% assign home_projects = sorted_projects | slice: 0, 3 %}
+  {% include project-list.html projects=home_projects %}
+  {% if site.projects.size > 3 %}
   <div class="reveal" style="margin-top:1.75rem;">
     <a class="btn btn--ghost" href="{{ '/projects/' | relative_url }}">
       모든 프로젝트 보기 {% include icon.html name='arrow-right' %}
@@ -72,18 +73,15 @@ layout: default
     <p class="eyebrow">Writing</p>
     <h2>{{ page.writing_title | default: '개발 일기장' }}</h2>
   </div>
-  <div class="posts-grid" data-stagger>
-    {% for post in site.posts limit: 6 %}
-    <a class="card post-card" href="{{ post.url | relative_url }}">
-      {% if post.categories.first %}<span class="post-card__cat">{{ post.categories.first }}</span>{% endif %}
-      <h3 class="post-card__title">{{ post.title }}</h3>
-      <div class="post-card__meta">
-        <span>{{ post.date | date: "%Y.%m.%d" }}</span>
-        <span class="post-card__arrow">{% include icon.html name='arrow-ur' %}</span>
-      </div>
+  {% assign recent_posts = site.posts | slice: 0, 3 %}
+  {% include post-cards.html posts=recent_posts %}
+  {% if site.posts.size > 3 %}
+  <div class="reveal" style="margin-top:1.75rem;">
+    <a class="btn btn--ghost" href="{{ '/writing/' | relative_url }}">
+      모든 글 보기 {% include icon.html name='arrow-right' %}
     </a>
-    {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 {% if page.skills %}

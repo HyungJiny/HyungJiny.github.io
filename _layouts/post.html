@@ -4,7 +4,7 @@ layout: default
 
 <article>
   <header class="post-hero section wrap" style="padding-bottom:0;">
-    <div class="reveal" style="max-width:74ch;">
+    <div class="reveal" style="max-width:60rem;">
       <a class="eyebrow" href="{{ '/#writing' | relative_url }}" style="cursor:pointer;">← 개발 일기장</a>
       <h1>{{ page.title }}</h1>
       <div class="post-hero__meta">
@@ -19,11 +19,11 @@ layout: default
   </header>
 
   <div class="section wrap" style="padding-top:clamp(2rem,4vw,3rem);">
-    <div class="prose reveal">
+    <div class="prose prose--article reveal">
       {{ content }}
     </div>
 
-    <nav class="post-nav" style="max-width:74ch;">
+    <nav class="post-nav" style="max-width:60rem;">
       {% if page.previous %}
         <a class="prev" href="{{ page.previous.url | relative_url }}">
           <span class="dir">← 이전 글</span><span class="t">{{ page.previous.title }}</span>

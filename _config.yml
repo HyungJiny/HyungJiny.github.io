@@ -36,6 +36,12 @@ plugins:
 feed:
   path: atom.xml
 
+# Collections — each project is one file in _projects/ with its own detail page.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 # Front Matter Defaults
 defaults:
   - scope:
@@ -44,6 +50,11 @@ defaults:
     values:
       layout: post
       read_time: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
 
 exclude:
   - Gemfile
@@ -54,3 +65,6 @@ exclude:
   - DESIGN.md
   - vendor
   - .bundle
+  - resume
+  - CLAUDE.md
+  - AGENTS.md

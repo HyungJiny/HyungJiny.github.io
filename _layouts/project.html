@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{%- comment -%} prev/next within the ordered project list {%- endcomment -%}
+{% assign ordered = site.projects | sort: 'order' %}
+{% assign idx = 0 %}
+{% for p in ordered %}{% if p.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}{% endfor %}
+{% assign prev_i = idx | minus: 1 %}
+{% assign next_i = idx | plus: 1 %}
+
+<article>
+  <header class="post-hero section wrap" style="padding-bottom:0;">
+    <div class="reveal" style="max-width:60rem;">
+      <a class="eyebrow" href="{{ '/projects/' | relative_url }}" style="cursor:pointer;">← 프로젝트</a>
+      <h1>{{ page.title }}</h1>
+      <div class="post-hero__meta">
+        {% if page.period %}<span class="tag">{{ page.period }}</span>{% endif %}
+        {% if page.org %}<span>{{ page.org }}</span>{% endif %}
+        {% if page.role %}<span>{{ page.role }}</span>{% endif %}
+      </div>
+      {% if page.tags %}
+      <div class="chips" style="margin-top:1.1rem;">
+        {% for t in page.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="section wrap" style="padding-top:clamp(2rem,4vw,3rem);">
+    <div class="prose prose--article reveal">
+      {% if page.outcome %}
+      <blockquote class="project-outcome"><strong>성과</strong> · {{ page.outcome }}</blockquote>
+      {% endif %}
+      {{ content }}
+    </div>
+
+    <nav class="post-nav" style="max-width:60rem;">
+      {% if prev_i >= 0 %}
+        {% assign prev = ordered[prev_i] %}
+        <a class="prev" href="{{ prev.url | relative_url }}">
+          <span class="dir">← 이전 프로젝트</span><span class="t">{{ prev.title }}</span>
+        </a>
+      {% else %}<span></span>{% endif %}
+      {% if next_i < ordered.size %}
+        {% assign next = ordered[next_i] %}
+        <a class="next" href="{{ next.url | relative_url }}">
+          <span class="dir">다음 프로젝트 →</span><span class="t">{{ next.title }}</span>
+        </a>
+      {% else %}<span></span>{% endif %}
+    </nav>
+  </div>
+</article>
